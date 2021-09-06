@@ -8,7 +8,7 @@ function reload()
 }
 function watched()
 {
-    alert('Work in progress!\nPlease try again later.');
+    alert('Open text file in new tab?');
 }
 function home()
 {
