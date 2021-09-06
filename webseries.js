@@ -18,3 +18,7 @@ function stream()
 {
     alert('Do you wish to continue\n(This action leads to external window)\n!!!OPEN WITH CAUTION!!!')
 }
+function IMDB()
+{
+    document.getElementsByclassName('imdb').style.display=block;
+}
