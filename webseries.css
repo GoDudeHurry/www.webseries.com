@@ -1,8 +1,9 @@
 ul {
     list-style-type: none;
     font-family: sans-serif;
+    font-size: large;
     margin: 0;
-    padding: 0;
+    padding: 10px 10px 10px 10px;
     overflow: hidden;
     background-color: black;
     position: absolute;
@@ -10,6 +11,7 @@ ul {
     left: 0;
     float: left;
     width: 100%;
+
 }
   
 li {
@@ -22,6 +24,10 @@ li a {
     display: block;
     padding: 8px;
     text-decoration: none;
+    border-right: 2px solid gray;
+    border-radius: 10px;
+    border-left: 2px solid gray;
+    margin-right: 2px;
 }
 li a:hover:not(.name){
     background-color: lightcyan;
@@ -29,48 +35,55 @@ li a:hover:not(.name){
     border-radius: 10px;
 }
 .name{
-    color: darkblue;
+    color: black;
     font-family: sans-serif;
     background: lightblue;
     border-radius: 10px;
+    font-weight: bold;
+    
 }
 
 .right{
     float: right;
 }
 footer{
-    color: cyan;
+    color: white;
     font-family: sans-serif;
     background-color: black;
     position: fixed;
     bottom: 0;
     right:0;
-    width: max-content;
-    text-align: center;
-}
-h3{
-    float: left;
-    display: block;
-    text-align: center;
-    color: midnightblue;
-    font-size: 30px;
-    font-family: sans-serif;
-    font-weight: bold;
-    position: inherit;
-    top: 8px;
     width: 100%;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
 }
+
+#foot{
+    padding: 10px 10px 10px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-top: 15px;
+}
+
+#foot:hover{
+    background-color: rgba(255, 0, 0, 0.719);
+}
+
 div{
     display: block;
     float: left;
     text-align: center;
     text-decoration: none;
-    border: 1px solid black;
-    position: inherit;
+    border: 2.2px groove lightcyan;
+    position: relative;
     background-color: lightblue;
     width:fit-content;
     border-radius: 10px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
     box-shadow: 5px 10px 10px lightgrey;
+    
 }
 div a{
     font-family: sans-serif;

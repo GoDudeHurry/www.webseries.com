@@ -22,3 +22,6 @@ function IMDB()
 {
     document.getElementsByclassName('imdb').style.display=block;
 }
+function Foot(){
+    document.getElementById('footer1').style.display="none";
+}
