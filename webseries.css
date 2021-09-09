@@ -104,9 +104,6 @@ li a:hover:not(.name){
     box-shadow: 0 0 15px white;
 }
 
-.right{
-    float: right;
-}
 footer{
     color: white;
     font-family: sans-serif;
