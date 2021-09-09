@@ -1,3 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+@keyframes logo{
+    0% {background-color:lightblue;color: black;}
+    50% {background-color: black; color:lightblue}
+    100% {background-color:lightblue;color: black;}
+}
+    
 ul {
     list-style-type: none;
     font-family: sans-serif;
@@ -12,6 +21,12 @@ ul {
     float: left;
     width: 100%;
 
+}
+foot a{
+    color: black;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
 }
   
 li {
@@ -40,7 +55,53 @@ li a:hover:not(.name){
     background: lightblue;
     border-radius: 10px;
     font-weight: bold;
-    
+    animation-name: logo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@media screen and (max-width: 515px){
+    .series{
+        margin-top: 45%;
+        margin-left: 50%;
+        margin-bottom: 2px;
+        margin-right: 2px;
+        width: 100%;
+        float: none;
+        padding: none;
+    }
+    ul{
+        float: none;
+        width: 100%;
+    }
+    li{
+        float: none;
+        margin-bottom: 1.5px;
+    }
+    li a{
+        text-align: center;
+        float: none;
+        border: 2px solid gray;
+    }
+    #header{
+        margin-top: 20%;
+    }
+    .name{
+        float:none;
+    }
+    .right{
+        float:none;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.right{
+    float:right;
+}
+
+.name:hover{
+    box-shadow: 0 0 15px white;
 }
 
 .right{
@@ -63,14 +124,17 @@ footer{
     background-color: red;
     color: white;
     border: none;
+    border-radius: 5px;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 #foot:hover{
-    background-color: rgba(255, 0, 0, 0.719);
+    background-color: #ff5f5f;
+    transform: scale(1.2);
 }
 
-div{
+div.series{
     display: block;
     float: left;
     text-align: center;
@@ -85,7 +149,7 @@ div{
     box-shadow: 5px 10px 10px lightgrey;
     
 }
-div a{
+div.series a{
     font-family: sans-serif;
     text-decoration: none;
     color: darkblue;
@@ -96,16 +160,19 @@ div a{
     width: fit-content;
     border-radius: 5px;
 }
+
 div a:hover{
     text-decoration: underline;
     background-color: gray;
     color: lightblue;
     box-shadow: 0px 0px 30px white;
 }
-div:hover{
+div.series:hover{
     background-color: lightcyan;
     color: blue;
     box-shadow: 0px 0px 50px black;
+    transform: scale(1.02);
+    
 }
 .series{
     margin-left: 3%;
@@ -114,4 +181,9 @@ div:hover{
 }
 div p{
     font-family: sans-serif;
+}
+#header{
+    color: black;
+    text-decoration: none;
+    
 }

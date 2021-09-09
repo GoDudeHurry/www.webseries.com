@@ -5,12 +5,13 @@ the page
     <meta http-equiv="refresh" content="5">
     Remove meta http tag while deploying
 the page-->
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='webseries.css'/>
     <title>Vasu's WebSeries</title>
     <link rel = "icon" href = 
     "https://static3.depositphotos.com/1004996/226/i/950/depositphotos_2260053-stock-photo-glowing-font-shiny-letter-v.jpg" 
             type = "image/x-icon">
+
     <body bgcolor="gray">
         <ul>
             <li title="Click to reload the page"><a class="name" href="index.html">My WebSeries and TV Shows</a></li>
@@ -18,12 +19,12 @@ the page-->
             <li><a href="ws_pdf.pdf" onclick="watched()" target="_">Watched</a></li>
             <li title="Opens text file in new tab"><a href="Upcoming Series.txt" target="_blank">New Series Schedule</a></li>
             <li title="Opens text file in new tab"><a href="Upcoming Movies.txt" target="_blank">Upcoming Movies</a></li>
-            <li style="float: right"><a class="right" target="s" href="Author.txt">Author</a></li>
+            <li><a class="right" target="s" href="Author.txt">Author</a></li>
         </ul>
-        <br><br><br><br><br>
-    </body>
+        <br><br><br><div id="header"><span style="font-family: sans-serif; color: black; text-align: center; width: 100%;float: right;">Watch series directly<br>All links are working</span></div><br><br><br><br>
+    
     <div class="series">
-        <img src="https://clesportstalk.com/wp-content/uploads/2019/06/House-MD.png" width="200px" height="115px" style="padding: 5px 5px 5px;" style="padding: 5px 5px 5px;">
+        <img src="https://clesportstalk.com/wp-content/uploads/2019/06/House-MD.png" width="200px" height="115px" style="padding: 5px 5px 5px;" >
         <h2><a title="Click to stream in external website" onclick="stream()" href="https://www.primevideo.com/detail/0ND6SUNF6JYPN6XDBEPGJ9TDWR/ref=atv_sr_fle_c_Tn74RA__1_1_1?sr=1-1&pageTypeIdSource=ASIN&pageTypeId=B077PFJDKP&qid=1629487342" target="_blank">House M.D</a></h2>
             <p>IMDB 8.7</p>
     </div>
@@ -136,11 +137,11 @@ the page-->
         <h2><a href="https://www.hotstar.com/in/tv/chernobyl/1260004866" target="_blank">Chernobyl</a></h2>
             <p>IMDB 9.4</p>
     </div>
-<!--    <div class="series">
+    <div class="series">
         <img src="https://deadline.com/wp-content/uploads/2017/03/its-always-sunny-in-philadelphia-sp-650x400.jpg?w=650&h=383&crop=1" width="200px" height="115px" style="padding: 5px 5px 5px;">
-        <h2><a href="https://www.hotstar.com/in/tv/its-always-sunny-in-philadelphia/2330/list/seasons/t-2_2_158" target="_blank">It's always sunny in Philadelphia</a></h2>
-            <p>IMDB 8.7</p>
--->
+        <h2><a href="https://www.hotstar.com/in/tv/its-always-sunny-in-philadelphia/2330/list/seasons/t-2_2_158" target="_blank">It's always sunny</a></h2>
+            <p>IMDB 8.8</p>
+    </div>
 
     <!--/*<div class="series">
         <img src="" width="200px" height="115px" style="padding: 5px 5px 5px;">
@@ -148,7 +149,10 @@ the page-->
             <p>IMDB </p>
     </div>-->
     
+    </body>
 
-    <footer id="footer1">Click on Series name to stream directly<br><span style="color:red; font-weight:bold;text-decoration: underline;">Note:</span> Amazon Prime and Hotstar are only paid streaming sites referred here...Others are free!<br><button id="foot" onclick="Foot()">I understand</button></footer>
+    <foot><a href='jayaHerbals/jayaherbals.html' id='jhl' target='_'>Ext</a></foot>
+    
+    <footer id="footer1">Click on Series name to stream directly :)<br><br><span style="color:red; font-weight:bold;text-decoration: underline;">Note:</span> Amazon Prime and Hotstar are only paid streaming sites referred here...Others are free!<br><button id="foot" onclick="Foot()">I understand</button></footer>
     <script src="webseries.js"></script>
 </html>
