@@ -1,7 +1,5 @@
 The Chair	AUG 20
 
-Lucifer		SEP 10
-
 Brooklyn 99	SEP 16
 
 Morning Show	SEP 17 - NOV 19
@@ -18,9 +16,13 @@ Chapelwaite	Nov
 
 Wheel of time	NOV 19
 
+Hawkeye		NOV 24
+
 What If		OCT 6
 
 Ted Lasso	OCT 8
+
+Only Murder 	OCT 19
 
 Dune		OCT 22
 
@@ -33,8 +35,6 @@ Resident Alien	2022
 Peaky blinders  2022
 
 Curb your Enth..2022
-
-Lucifer 6	2022
 
 
 

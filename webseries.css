@@ -1,6 +1,12 @@
 *{
     box-sizing: border-box;
 }
+body  {
+  background-image: url("https://img.freepik.com/free-photo/gray-painted-background_53876-94041.jpg?size=626&ext=jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 @keyframes logo{
     0% {background-color:lightblue;color: black;}
     50% {background-color: black; color:lightblue}
@@ -96,7 +102,7 @@ li a:hover:not(.name){
     }
 }
 
-.right{
+ul li .right{
     float:right;
 }
 
